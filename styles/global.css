@@ -4,9 +4,7 @@
   box-sizing: border-box;
   
 }
-html{
-  background-color: grey;
-}
+
 body {
   width: 1100px;
   margin: 0 auto;
