@@ -212,7 +212,7 @@ a, article {
   border-bottom: 1px solid black;
 }
 .about {
-  padding: 120px 24px 180px 24px;
+  padding: 0 24px 180px 24px;
 }
 .about__column {
   display: grid;
