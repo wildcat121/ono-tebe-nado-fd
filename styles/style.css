@@ -28,10 +28,10 @@ body {
   font-size: 18px;
   list-style: circle;
 }
-.header__menu-item_no-bullit{
+.header__menu-item_no-bullit {
   list-style: none; 
 }
-.header__link_active{
+.header__link_active {
   text-decoration: none;
 }
 .header__address {
@@ -80,13 +80,13 @@ body {
   letter-spacing: 30px;
   text-transform: uppercase;
 }
-.accent-span:last-child{
+.accent-span:last-child {
   margin-bottom: 0;
 }
-.text-center{
+.text-center {
     text-align: center;
 }
-.text-right{
+.text-right {
   text-align: right;
 }
 .no-letter-spacing:last-child {
@@ -108,12 +108,11 @@ body {
   text-transform: uppercase; 
   word-spacing: 18px;
 }
-.bet-button{
+.bet-button {
   width: 256px;
   height: 51px;
   border: 1px solid #fff;
-  background: transparent;
-  
+  background: transparent; 
 }
 .bet-button-text {
   color: #FFF;
@@ -135,7 +134,7 @@ body {
   margin-bottom: 30px;
 
 }
-.lots__heading{
+.lots__heading {
   margin: 0 0 27px 40px;
   font-size: 40px;
   font-style: normal;
@@ -286,7 +285,7 @@ a, article {
   text-decoration: none;
 }
 
-.footer__social-list{
+.footer__social-list {
   display: flex;
   justify-content: flex-end;
   gap: 48px;
