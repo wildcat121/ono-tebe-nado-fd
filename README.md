@@ -1,1 +1,1 @@
-https://github.com/wildcat121/ono-tebe-nado
+https://github.com/wildcat121/ono-tebe-nado-fd
