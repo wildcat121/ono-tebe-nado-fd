@@ -26,12 +26,12 @@
 .header__menu-item_no-bullit {
   list-style: none; 
 }
-.header__menu-link{
+.header__menu-link {
   text-underline-offset: 3px;
 }
 .header__link_active {
-  text-decoration: none;
   border-bottom: none;
+  text-decoration: none;
 }
 .header__address {
   display: flex;
@@ -39,9 +39,9 @@
   justify-self: end;
   align-items: flex-start;
   max-width: 236px;
+  margin-top: -5px;
   font-size: 18px;
   line-height: 24.3px;
-  margin-top: -5px;
 }
 .cover {
   position: relative;
@@ -107,7 +107,6 @@
   width: 256px;
   min-height: 51px;
   border: 1px solid #fff;
-  background: transparent;
   color: #FFF;
   font-weight: 500;
   font-size: 22px;
@@ -115,6 +114,7 @@
   line-height: normal;
   text-align: center;
   text-transform: uppercase;
+  background: transparent;
   cursor: pointer; 
 }
 .lots {
@@ -123,9 +123,9 @@
 }
 .lots__card-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 25px;
   margin-bottom: 30px;
-  flex-wrap: wrap;
 
 }
 .lots__heading {
@@ -147,15 +147,12 @@
 }
 .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
-  
 }
 .card_type_book {
   background-image: url(../images/card-lot-02.jpg);
-  
 }
 .card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
-  
 }
 .card-link {
   text-decoration: none;
@@ -195,12 +192,12 @@
 }
 .lots__look-more-link {
   margin-left: 40px;
-  text-decoration: none;
   border-bottom: 1px solid black;
   font-weight: 400;
   font-size: 20px;
   font-style: normal;
   line-height: normal;
+  text-decoration: none;
 }
 .about {
   padding: 35px 24px 180px 24px;
@@ -228,23 +225,23 @@
 .about__title {
 
   align-self: center;
+  padding-top: 5px;
   font-weight: 700;
   font-size: 40px;
   font-style: normal;
   line-height: normal;
   text-transform: uppercase;
-  padding-top: 5px;
 }
 .about__text {
   display: flex;
   flex-direction: column;
   grid-column: 2 / 3;
   gap: 24px;
+  padding-top: 8px;
   font-weight: 400;
   font-size: 20px;
   font-style: normal;
   line-height: 24px;
-  padding-top: 8px;
 }
 .footer {
   display: grid;
