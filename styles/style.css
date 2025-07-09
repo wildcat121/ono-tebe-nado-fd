@@ -24,7 +24,7 @@
   list-style: circle;
 }
 .header__menu-item_no-bullit {
-  list-style: none; 
+  list-style: none;
 }
 .header__menu-link {
   text-underline-offset: 3px;
@@ -96,11 +96,11 @@
 }
 .cover__description-text {
   color: #FFF;
-  font-weight: 400;  
+  font-weight: 400;
   font-size: 22px;
   font-style: normal;
   line-height: 28px;
-  text-transform: uppercase; 
+  text-transform: uppercase;
   word-spacing: 18px;
 }
 .bet-button {
@@ -115,7 +115,7 @@
   text-align: center;
   text-transform: uppercase;
   background: transparent;
-  cursor: pointer; 
+  cursor: pointer;
 }
 .lots {
   padding: 180px 24px 120px 24px;
